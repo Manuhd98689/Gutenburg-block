@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "custom/learn-more-button",
+  "title": "Learn More Button",
+  "category": "design",
+  "icon": "arrow-right-alt2",
+  "description": "Animated 'Learn More' button with arrow.",
+  "version": "1.0.0",
+  "textdomain": "learn-more-button",
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/style-index.css",
+  "editorStyle": "file:./build/index.css",
+  "attributes": {
+    "text": { "type": "string", "default": "Learn More" },
+    "url": { "type": "string", "default": "" },
+    "openInNewTab": { "type": "boolean", "default": false },
+    "rel": { "type": "string", "default": "" }
+  },
+  "supports": {
+    "align": ["wide", "full"],
+    "spacing": { "margin": true, "padding": true },
+    "html": false
+  }
+}

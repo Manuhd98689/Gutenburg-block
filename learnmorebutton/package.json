@@ -1,0 +1,16 @@
+{
+  "name": "learn-more-button",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gutenberg block plugin for an animated Learn More button",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "lint:css": "wp-scripts lint-style"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.1.0",
+    "sass": "^1.77.6"
+  }
+}
